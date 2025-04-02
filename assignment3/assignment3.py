@@ -53,7 +53,7 @@ clean_data["Age"]=clean_data["Age"].fillna(mean_age)
 mean_salary=clean_data["Salary"].mean()
 clean_data["Salary"]=clean_data["Salary"].fillna(mean_salary)
 
-clean_data["Hire Date"]=pd.to_datetime(clean_data["Hire Date"],errors='coerce')
+clean_data["Hire Date"]=pd.to_datetime(clean_data["Hire Date"], format='mixed')
 
 clean_data["Department"]=clean_data["Department"].str.strip()
 clean_data["Department"]=clean_data["Department"].str.upper()
