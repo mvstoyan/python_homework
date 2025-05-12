@@ -1,6 +1,7 @@
 import pandas as pd
 import sqlalchemy as sa
 import sqlite3
+import pyreadline as readline
 import os
 db_path = "./db/lesson.db"
 
