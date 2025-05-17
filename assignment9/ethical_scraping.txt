@@ -1,0 +1,3 @@
+Websites use robots.txt to control which parts of their site bots can access, 
+helping manage server load and protect private or sensitive areas. 
+It promotes ethical scraping by setting clear boundaries for respectful and responsible data collection.
